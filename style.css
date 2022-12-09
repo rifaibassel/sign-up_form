@@ -25,11 +25,13 @@ main {
   display: flex;
   height: 100%;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: end;
+  flex-wrap: wrap;
 }
 
 footer {
+  align-self: flex-end;
   color: #fff;
   width: 100%;
   display: flex;
@@ -42,4 +44,11 @@ footer p {
 
 footer a:visited {
   color: #fff;
+}
+
+#logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 200px;
+  width: 100%;
+  align-self: center;
 }
