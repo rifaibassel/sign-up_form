@@ -9,3 +9,35 @@ html {
   height: 100%;
   width: 100%;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100%;
+  width: 100%;
+}
+
+#banner {
+  background: no-repeat url(./img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  padding-bottom: 1rem;
+}
+
+footer a:visited {
+  color: #fff;
+}
