@@ -14,13 +14,13 @@ html {
 
 main {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 37% 63%;
   height: 100%;
   width: 100%;
 }
 
 #banner {
-  background: no-repeat url(./img/halie-west-25xggax4bSA-unsplash.jpg);
+  background: no-repeat center url(./img/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   display: flex;
   height: 100%;
@@ -43,6 +43,10 @@ footer p {
 }
 
 footer a:visited {
+  color: #fff;
+}
+
+footer a:link {
   color: #fff;
 }
 
