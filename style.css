@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'norsebold';
+  src: url('norse-bold-webfont.woff2') format('woff2'),
+    url('norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -58,4 +66,16 @@ footer a:link {
   height: 150px;
   width: 100%;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  width: 20%;
+}
+
+#logo h1 {
+  color: #fff;
+  font-family: 'norsebold', sans-serif;
 }
