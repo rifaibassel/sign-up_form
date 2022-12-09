@@ -70,3 +70,12 @@ footer a:link {
   font-size: 6rem;
   font-family: 'Norse', sans-serif;
 }
+
+#info-container {
+  background-color: #f9f9f9;
+  display: grid;
+  grid-template-rows: 35% 25% 35%;
+}
+
+#desc {
+}
