@@ -132,5 +132,14 @@ form div label {
 form div input {
   width: 270px;
   height: 35px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+form div input:focus,
+form div input:focus-visible {
+  border: 1px solid rgba(0, 0, 255, 0.7);
+  outline: none;
+  box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.3);
 }
