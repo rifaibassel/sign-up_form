@@ -153,3 +153,30 @@ form div input:focus-visible {
   color: red;
   font-size: 0.8em;
 }
+
+#btn-container {
+  margin-top: 4rem;
+  padding-left: 3rem;
+}
+
+#btn-container button {
+  width: 232px;
+  height: 45px;
+  background-color: #596d48;
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#btn-container p a {
+  text-decoration: none;
+  color: #596d48;
+}
